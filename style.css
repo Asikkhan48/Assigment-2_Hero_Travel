@@ -1,7 +1,61 @@
+/* nav-bar */
+
 .nav-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-logo {
+    display: flex;
     
+}
+
+.nav-title {
+    padding-left: 1.5rem;
+}
+
+.span-hero {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.span-travel {
+    color: #FF5400;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+
+/* nav-content */
+.nav-content ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-content li {
+    list-style-type: none;
+    
+}
+
+.nav-content .nav-content-home {
+    color: #FF5400;
+}
+
+/* nav-media */
+@media screen {
+    
+}
+
+/* 2nd- Explore travel */
+
+.explore-travel img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.explore-travel input {
+    display: inline;
+    gap: 1.5rem;
 }
