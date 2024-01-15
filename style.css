@@ -50,12 +50,73 @@
 
 /* 2nd- Explore travel */
 
+.explore-travel {
+    
+}
+
 .explore-travel img {
     width: 100%;
     margin-top: 2.5rem;
+    position: relative;
 }
+
+.explore-travel-content {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    margin-top: 7rem;
+
+}
+
 
 .explore-travel input {
     display: inline;
     gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.explore-travel-content h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.explore-travel-content p {
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.button-primary {
+    width: 10rem;
+    height: ;
+    color: #fff;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+
+@media screen {
+    
+}
+
+/* populat-tour */
+
+.popular-tour-container {
+    display: flex;
+    justify-content:space-between;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.popular-tour-image img {
+    width: 100%;
+}
+
+.popular-tour-content {
+    padding: 7rem 4rem;
 }
