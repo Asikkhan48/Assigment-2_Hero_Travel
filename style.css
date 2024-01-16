@@ -338,3 +338,185 @@
     color: #FF5400;
     font-weight: 800;
 }
+
+/* tour california beach */
+
+.Tour-california {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.Tour-california img {
+    width: 100%;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.Tour-california-content {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    color: #131318;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 7rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+
+}
+
+.Tour-california-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.Tour-california-content p {
+    font-size: 1.5rem;
+
+}
+
+.button-primary-california {
+    width: 10rem;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.Tour-california-content-span {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+/* All Package button  */
+.all-package p{
+    width: 10rem;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    margin-left: 36rem;
+}
+
+
+/* parfect place */
+
+
+.parfect-place-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parfect-tour-video video {
+    width: 100%;
+}
+
+.parfect-place-content {
+    padding: 7rem 4rem;
+}
+
+.parfect-h1-tag {
+    font-size: 2.5rem;
+    color:#131318;
+    font-weight: 800;
+}
+
+.button-primary-parfect-place {
+    width: 10rem;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+/*newsletter-container  */
+
+.Newsletter-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Newsletter-image-container {
+    position: relative;
+}
+
+.Newsletter-image-container img{
+    position: relative;
+    width: 100%;
+}
+
+.Newsletter-image-content {
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+
+}
+
+.Newsletter-div {
+    background: rgba(41, 206, 246, 0.05);
+    border:1px solid rgba(41, 206, 246, 0.20);
+    padding: 0 2rem;
+}
+
+.Newsletter-div input{
+    display: block;
+    gap: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.Newsletter-div h1 {
+    color: #131318;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.Newsletter-div p {
+    color: #131318;
+    font-size: 1.5rem;
+
+}
+
+.button-subscribe {
+    width: 10rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+/* footer */
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-title {
+    padding-left: 1.5rem;
+}
+
+.span-hero1 {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.span-travel2 {
+    color: #FF5400;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
