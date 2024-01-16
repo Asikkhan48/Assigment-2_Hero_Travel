@@ -247,6 +247,7 @@
 
 .Tour-Satorini{
     position: relative;
+    margin-bottom: 2.5rem;
 }
 .Tour-Satorini img {
     width: 100%;
@@ -256,13 +257,14 @@
 
 .Tour-Satorini-content {
     position: absolute;
-    top: 10%;
-    right: 5%;
+    top: 20%;
+    right: 1%;
     color: #131318;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     margin-top: 7rem;
     padding: 1rem;
+    border-radius: 0.8rem;
 
 }
 
@@ -285,6 +287,54 @@
 }
 
 .Tour-Satorini-content-span {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+/* tour malborne-beach */
+
+.Tour-melborne{
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.Tour-melborne img {
+    width: 100%;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.Tour-melborne-content {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    color: #131318;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 7rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+
+}
+
+.Tour-melborne-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.Tour-melborne-content p {
+    font-size: 1.5rem;
+
+}
+
+.button-primary-melborne {
+    width: 10rem;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.Tour-melborne-content-span {
     color: #FF5400;
     font-weight: 800;
 }
