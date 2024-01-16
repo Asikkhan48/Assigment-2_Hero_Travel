@@ -549,3 +549,19 @@
     font-weight: 500;
     padding-top: 2.5rem;
 }
+
+
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .popular-tour-container,
+    .Your-Destination-img,
+    .why-chose-us-container,
+    .parfect-place-container,
+    .Newsletter-container {
+        flex-direction: column;
+    }    
+    .parcentage,
+    .all-package p {
+        margin-left: 0.1rem;
+    }
+}
