@@ -161,7 +161,7 @@
 }
 
 .Your-Destination-img #horigental-collage img {
-    width: 25% 40% 30%;
+    width: 45% 45%;
 }
 
 /* <!-- why chose us --> */
@@ -498,6 +498,14 @@
 
 /* footer */
 
+.footer {
+    height: 15rem;
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    margin-top: 2.5rem;
+    padding: 7rem 0;
+}
+
 .footer-main {
     display: flex;
     justify-content: center;
@@ -519,4 +527,25 @@
     color: #FF5400;
     font-size: 2.4rem;
     font-weight: 800;
+}
+
+.footer-paragraph p {
+    text-align: center;
+    color: #131318;
+    font-weight: 500;
+}
+
+.social-containet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 0.7rem;
+}
+
+.copyright p {
+    text-align: center;
+    color: #131318;
+    font-weight: 500;
+    padding-top: 2.5rem;
 }
