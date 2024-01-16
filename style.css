@@ -111,6 +111,7 @@
     justify-content:space-between;
     gap: 1rem;
     margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .popular-tour-image img {
@@ -119,4 +120,171 @@
 
 .popular-tour-content {
     padding: 7rem 4rem;
+}
+
+.All-h1-tag {
+    font-size: 2.5rem;
+    color:#131318;
+    font-weight: 800;
+}
+/* Your-Destination */
+
+.Your-Destination {
+    text-align: center;
+}
+
+.Your-Destination h1 {
+    font-size: 2.5rem;
+    color:#131318;
+    font-weight: 800;
+}
+
+.Your-Destination p{
+    color:#131318;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+/*Your-Destination-img  */
+
+.Your-Destination-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Your-Destination-img {
+    height: 25rem;
+    display: flex;
+    gap: 0.8rem 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.Your-Destination-img #horigental-collage img {
+    width: 25% 40% 30%;
+}
+
+/* <!-- why chose us --> */
+
+.why-chose-us {
+    text-align: center;
+}
+
+.why-chose-us h1 {
+    font-size: 2.5rem;
+    color:#131318;
+    font-weight: 800;
+}
+
+.why-chose-us p{
+    color:#131318;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+/* why chose us container */
+
+.why-chose-us-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotel {
+    height: 18rem;
+    padding: 0.7rem;
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);    
+}
+.hotel img {
+    height: 4rem;
+    width: 4rem;
+}
+.map {
+    height: 18rem;
+    padding: 0.7rem;
+    background: rgba(41, 206, 246, 0.05);
+    border:1px solid rgba(41, 206, 246, 0.20);
+}
+.map img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.parcentage {
+    text-align: center;
+    margin-top: 2.5rem;
+    height: 18rem;
+    width: 36rem;
+    margin-left: 25rem;
+    background: rgba(41, 206, 246, 0.05);
+    border:1px solid rgba(41, 206, 246, 0.20);
+}
+.parcentage img {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Deals & Dicount */
+
+.Deals-Discount {
+    text-align: center;
+}
+
+.Deals-Discount h1 {
+    font-size: 2.5rem;
+    color:#131318;
+    font-weight: 800;
+}
+
+.Deals-Discount p{
+    color:#131318;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Tour To Satorini */
+
+.Tour-Satorini{
+    position: relative;
+}
+.Tour-Satorini img {
+    width: 100%;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.Tour-Satorini-content {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: #131318;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 7rem;
+    padding: 1rem;
+
+}
+
+.Tour-Satorini-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.Tour-Satorini-content p {
+    font-size: 1.5rem;
+
+}
+
+.button-primary-satorini {
+    width: 10rem;
+    font-weight: 500;
+    background-color: #FF5400;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.Tour-Satorini-content-span {
+    color: #FF5400;
+    font-weight: 800;
 }
