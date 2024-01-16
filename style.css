@@ -43,10 +43,6 @@
     color: #FF5400;
 }
 
-/* nav-media */
-@media screen {
-    
-}
 
 /* 2nd- Explore travel */
 
@@ -71,7 +67,7 @@
 
 
 .explore-travel input {
-    display: inline;
+    display: inline-block;
     gap: 1.5rem;
     padding: 1rem;
     border-radius: 0.7rem;
@@ -560,8 +556,51 @@
     .Newsletter-container {
         flex-direction: column;
     }    
-    .parcentage,
+    .parcentage {
+        width: 100%;
+        margin-left: 0.1rem;
+        
+    }
+
     .all-package p {
         margin-left: 0.1rem;
     }
+    .explore-travel-content,
+    .Tour-Satorini {
+        width: 100%;
+        left: 0.1%;
+    }
+    .explore-travel-content h1,
+    .explore-travel-content p{
+        font-size: 1rem;
+    }
+
+    .explore-travel input {
+        padding: 0;
+        flex-direction: column;
+    }
+    .button-primary {
+        width: auto;
+        padding: 0.2rem;
+    }
+    .hotel,
+    .map {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    .nav-container,
+    .popular-tour-container,
+    .Your-Destination-img,
+    .why-chose-us-container,
+    .parfect-place-container,
+    .Newsletter-container {
+        flex-direction: column;
+}
+.parcentage {
+    width: 100%;
+    margin-left: 0.1rem;
+}
 }
